@@ -4,6 +4,13 @@ version = "0.1.0"
 edition = "2024"
 description = "Terminal Vim cheatsheet and searchable helper built with ratatui."
 license = "MIT"
+repository = "https://github.com/rmfaheem/vimbo"
+homepage = "https://github.com/rmfaheem/vimbo"
+documentation = "https://github.com/rmfaheem/vimbo#readme"
+readme = "README.md"
+keywords = ["vim", "cheatsheet", "terminal", "tui", "reference"]
+categories = ["development-tools", "command-line-utilities"]
+authors = ["Faheem"]
 
 [dependencies]
 ratatui = { version = "0.28", default-features = false, features = ["crossterm"] }
