@@ -14,11 +14,21 @@ It is built with `ratatui` and `crossterm` and runs anywhere Rust does.
 
 You need a recent Rust toolchain and `cargo` installed.
 
+**From crates.io:**
+
 ```bash
+cargo install vimbo
+```
+
+**From a local checkout:**
+
+```bash
+git clone https://github.com/rmfaheem/vimbo
+cd vimbo
 cargo install --path .
 ```
 
-This will install the `vimbo` binary into your Cargo bin directory (usually `~/.cargo/bin`), which should be on your `PATH`.
+The binary is installed to your Cargo bin directory (usually `~/.cargo/bin`); ensure it is on your `PATH`.
 
 ### Usage
 
