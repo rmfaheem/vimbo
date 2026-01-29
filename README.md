@@ -56,3 +56,7 @@ Keep it open in a tmux / Vim split or another terminal window as a quick referen
 
 `vimbo` is intentionally read-only and static: it does not attempt to interact with your Vim session, just to provide an always-available reference. Contributions of additional cheatsheet entries and refinements are welcome.
 
+
+### Disclaimer
+
+This app was entirely vibe-coded. I have modified at most a handful of lines.
