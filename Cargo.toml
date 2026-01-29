@@ -1,0 +1,14 @@
+[package]
+name = "vimbo"
+version = "0.1.0"
+edition = "2024"
+description = "Terminal Vim cheatsheet and searchable helper built with ratatui."
+license = "MIT"
+
+[dependencies]
+ratatui = { version = "0.28", default-features = false, features = ["crossterm"] }
+crossterm = "0.28"
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.11"
